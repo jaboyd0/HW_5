@@ -8,17 +8,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
     <title>Work Day Scheduler</title>
   </head>
 
@@ -37,10 +29,10 @@
             8:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="8clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="8save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -48,10 +40,10 @@
             9:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="9clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="9save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -59,10 +51,10 @@
             10:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="10clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="10save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -70,10 +62,10 @@
             11:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="11clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="11save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -81,21 +73,10 @@
             12:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="12clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            12:00
-          </div>
-          <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-          </div>
-          <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="12save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -103,10 +84,10 @@
             1:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="1clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="1save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -114,10 +95,10 @@
             2:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="2clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="2save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -125,10 +106,10 @@
             3:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="3clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="3save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -136,10 +117,10 @@
             4:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="4clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="4save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -147,10 +128,10 @@
             5:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="5clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="5save">Save</button>
           </div>
         </div>
         <div class="row">
@@ -158,15 +139,16 @@
             6:00
           </div>
           <div class="col-sm-10 form-group ">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            <textarea class="form-control toDoEntry" id="6clock" rows="2"></textarea>
           </div>
           <div class="col-sm">
-            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary submitButton" id="6save">Save</button>
           </div>
         </div>
       </form>
     </div>
 
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
